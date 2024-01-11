@@ -9,12 +9,12 @@ function App() {
       <BrowserRouter>
         <nav className="navbar">
           <NavLink to="/vision" className="nav-link">
-            Image Generation
+            Vision App
           </NavLink>
         </nav>
 
         <Routes>
-          <Route path="/" element={<VisionApp />} />
+          <Route path="/vision" element={<VisionApp />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,4 +1,4 @@
-import { getOpenAIVision } from "./version.js";
+import { getOpenAIVision } from "./vision.js";
 import axios from "axios";
 
 
